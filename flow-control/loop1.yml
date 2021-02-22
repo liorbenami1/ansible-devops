@@ -1,6 +1,10 @@
 ---
 - name: Simple loop demo play
+<<<<<<< HEAD
   hosts:  all
+=======
+  hosts: master
+>>>>>>> 7c31e82ab4cd4aa4e4c32b04d00cd46e29336909
 
   tasks:
     - name: Echo a value from the loop
